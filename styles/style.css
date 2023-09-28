@@ -1,0 +1,75 @@
+#box {
+    margin: 5px 10px 20px 40px;
+    border: 2px solid darkblue;
+    padding: 2px 4px 8px 16px;
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+    /* position: fixed; */
+}
+
+/* Our Team */
+
+.profile-pic{
+    /* block elements acts like inline elements */
+    display: inline-block; 
+    /* top - auto, l and r - 5% */
+    margin : auto 5%;
+    background: #008080;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    /* 3d view for the box */
+    box-shadow: 20px 15px 13px #140c0c;
+}
+
+.profile-pic li{
+    list-style: none;
+    display: inline-block;
+}
+
+.profile-pic a {
+    text-decoration: none;
+    color : lightgray
+}
+
+.profile-pic img {
+   width: 50%;
+   border-radius: 50px;
+}
+
+.profile-pic h3 {
+    color: rgb(59, 58, 57);
+    font-size: 30px;
+    text-shadow: 0px 2px 9px rgb(255, 255, 255);
+}
+
+a[href="#"]{
+font-size: 20px;
+}
+
+nav{
+    background: url("../images/bck1.png") no-repeat center, url("../images/bck2.png") repeat ;
+}
+
+@media all and (max-width:500px){
+    body{
+        background: red;
+        color: white;
+    }
+
+}
+
+@media all and (min-width:1000px) {
+    body {
+        background: darkcyan;
+        color: white;
+    }
+
+}
+
+        body {
+            background: green;
+
+        }
